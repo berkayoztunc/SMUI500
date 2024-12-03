@@ -1,9 +1,13 @@
 <template>
   <div class="flex flex-col items-center justify-center min-h-screen max-w-3xl mx-auto scale-150	">
     <!-- Görseller -->
+    <div class="text-center rounded overflow-hidden shadow-lg p-10 rounded">
+
     <h1 class="text-3xl">Solana Men's underwaer index = SMUI500</h1>
     <p>CA : FYZJXcT6XPPfPDVg9L1vjwTxMAFLLWcQe5aFvpchpump</p>
-
+    <div class=" text-center">
+        {{  price }}$
+      </div>
     <div class="flex justify-around w-full mb-8 gap-4">
       <div
         v-for="(image, index) in images"
@@ -28,11 +32,13 @@
       <div class="flex justify-between mt-2 text-sm text-gray-600">
         <span v-for="label in labels" :key="label">{{ label }}$</span>
       </div>
-      <div class="flex justify-between mt-2 text-sm  text-center">
-        {{  price }}$
-      </div>
     </div>
+
+    </div>
+ 
+    
   </div>
+  
 </template>
 
 <script>
