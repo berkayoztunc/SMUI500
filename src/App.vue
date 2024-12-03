@@ -56,11 +56,11 @@ export default {
     async fetchPrice() {
       try {
         const response = await fetch(
-          "https://api.jup.ag/price/v2?ids=FYZJXcT6XPPfPDVg9L1vjwTxMAFLLWcQe5aFvpchpump,So11111111111111111111111111111111111111112"
+          "https://api.jup.ag/price/v2?ids=8x5VqbHA8D7NkD52uNuS5nnt3PwA8pLD34ymskeSo2Wn,So11111111111111111111111111111111111111112"
         );
         const data = await response.json();
         this.price = parseFloat(
-          data.data["FYZJXcT6XPPfPDVg9L1vjwTxMAFLLWcQe5aFvpchpump"].price
+          data.data["8x5VqbHA8D7NkD52uNuS5nnt3PwA8pLD34ymskeSo2Wn"].price
         );
 
         // Progress yüzdesini hesapla (0 ile 1 arasında)
