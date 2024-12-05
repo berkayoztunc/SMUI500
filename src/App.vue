@@ -1,44 +1,39 @@
 <template>
-  <div class="grid grid-cols-4 items-center justify-center  max-w-3xl mx-auto gap-2">
-    <div class="text-center rounded overflow-hidden shadow-lg p-10 rounded-xl">
+  <div class="grid grid-cols-2 md:grid-cols-4 items-center justify-center  max-w-3xl mx-auto gap-2">
+    <div class="text-center rounded overflow-hidden shadow-lg p-2 rounded-xl">
       <a href="/">
-        <img src="/icon.png" alt="" class="">
+        <img src="/smui500_x.png" alt="" class="">
       </a>
     </div>
-    <div class="text-center rounded overflow-hidden shadow-lg p-10 rounded-xl">
-      <a href="http://x.com">
-        <img src="https://logos-world.net/wp-content/uploads/2023/08/X-Logo.png" alt="" class="">
-      </a>
+    <div class="hidden md:flex">
+      
     </div>
-    <div class="text-center rounded overflow-hidden shadow-lg p-10 rounded-xl">
-      <a href="http://pump.fun"> 
-        <img src="https://logos-world.net/wp-content/uploads/2024/10/Pump-Fun-Logo.jpg" alt="">
-      </a>
+    <div class="hidden md:flex">
+     
     </div>
     <div class="text-center rounded overflow-hidden shadow-lg p-10 rounded-xl">
       <ul>
-        <li><a href="/meme.html">Memes</a></li>
-        <li><a href="/telegram.html">Telegram</a></li>
-        <li><a href="/merch.html">Merch</a></li>
-        <li><a href="/merch.html">Dexscreener</a></li>
-
+        <li><a href="/meme.html">Memes (soon)</a></li>
+        <li><a href="https://t.me/smux500">Telegram </a></li>
+        <li><a href="/merch.html">Merch (soon)</a></li>
+        <li><a href="/merch.html">Dexscreener (soon)</a></li>
       </ul>
     </div>
   </div>
-  <div class="flex flex-col items-center justify-center min-h-screen max-w-3xl mx-auto 	">
+  <div class="text-center rounded overflow-hidden shadow-lg p-10 rounded-xl">
     <!-- Görseller -->
     <div class="text-center rounded overflow-hidden shadow-lg p-10 rounded">
 
-      <h1 class="text-3xl">Solana Men's Underwaer Index = SMU500</h1>
+      <h1 class="text-3xl">Solana Men's Underwaer Index = SMUX500</h1>
       <p>CA : FYZJXcT6XPPfPDVg9L1vjwTxMAFLLWcQe5aFvpchpump</p>
       <div class=" text-center">
           {{  price }}$
         </div>
-      <div class="flex justify-around w-full mb-8 gap-4">
+      <div class="flex justify-around w-full mb-8  gap-1 md:gap-4">
         <div
           v-for="(image, index) in images"
           :key="index"
-          class="w-24 h-24 rounded-md  flex items-center justify-center p-4"
+          class="w-24 h-24 rounded-md  flex items-center justify-center p-0 md:p-4"
         
         >
           <img :src="(index) + '.png'" alt="">
@@ -46,7 +41,7 @@
       </div>
 
       <!-- Progress Bar -->
-      <div class="relative w-full max-w-3xl">
+      <div class="relative w-full ">
         <div class="h-8 bg-gray-300 rounded-full flex">
           <div
             class="h-full bg-green-500 rounded-full transition-all"
@@ -59,14 +54,14 @@
           <span v-for="label in labels" :key="label">{{ label }}$</span>
         </div>
       </div>
-      <p class="p-6">
+      <p class="p-6 text-justify	">
 
-        The Men's Underwear Index (MUI) is an economic indicator that purportedly signals the onset of recovery during economic downturns. The concept is based on the idea that men's underwear is a basic necessity, with sales typically stable during normal times. However, during severe economic slumps, purchases may be delayed, reflecting shifts in discretionary spending.
+        The Men's Underwear Index (SMUX) is an economic indicator that purportedly signals the onset of recovery during economic downturns. The concept is based on the idea that men's underwear is a basic necessity, with sales typically stable during normal times. However, during severe economic slumps, purchases may be delayed, reflecting shifts in discretionary spending.
 
-MUI is considered a potential measure of broader consumption trends, particularly during periods of economic recovery. This indicator gained attention for being monitored by former Federal Reserve Chairman Alan Greenspan.
+        SMUX is considered a potential measure of broader consumption trends, particularly during periods of economic recovery. This indicator gained attention for being monitored by former Federal Reserve Chairman Alan Greenspan.
       </p>
-      <h1 class="text-xl">Why SMU500 ?</h1>
-      <p>The Men’s Underwear Index is an unconventional yet surprisingly insightful economic indicator, reflecting broader consumption trends during recovery periods. Owning the SMUI500 token makes you part of a community that values   understanding the economy.</p>
+      <h1 class="text-xl">Why SMUX500 ?</h1>
+      <p class="text-justify	">The Men’s Underwear Index is an unconventional yet surprisingly insightful economic indicator, reflecting broader consumption trends during recovery periods. Owning the SMUI500 token makes you part of a community that values   understanding the economy.</p>
       
 
     </div>
