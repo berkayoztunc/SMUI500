@@ -25,7 +25,7 @@
     <div class="text-center rounded overflow-hidden shadow-lg p-10 rounded">
 
       <h1 class="text-3xl">Solana Men's Underwaer Index = SMUX500</h1>
-      <p>CA : FYZJXcT6XPPfPDVg9L1vjwTxMAFLLWcQe5aFvpchpump</p>
+      <p>CA : 69FSWQK2bY6aqP8bTVErEMwwh7g5fC5Pve7JTxGbpump</p>
       <div class=" text-center">
           {{  price }}$
         </div>
@@ -99,11 +99,11 @@ export default {
     async fetchPrice() {
       try {
         const response = await fetch(
-          "https://api.jup.ag/price/v2?ids=8x5VqbHA8D7NkD52uNuS5nnt3PwA8pLD34ymskeSo2Wn,So11111111111111111111111111111111111111112"
+          "https://api.jup.ag/price/v2?ids=69FSWQK2bY6aqP8bTVErEMwwh7g5fC5Pve7JTxGbpump,So11111111111111111111111111111111111111112"
         );
         const data = await response.json();
         this.price = parseFloat(
-          data.data["8x5VqbHA8D7NkD52uNuS5nnt3PwA8pLD34ymskeSo2Wn"].price
+          data.data["69FSWQK2bY6aqP8bTVErEMwwh7g5fC5Pve7JTxGbpump"].price
         );
 
         // Progress yüzdesini hesapla (0 ile 1 arasında)
