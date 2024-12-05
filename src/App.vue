@@ -1,13 +1,19 @@
 <template>
   <div class="grid grid-cols-4 items-center justify-center  max-w-3xl mx-auto gap-2">
     <div class="text-center rounded overflow-hidden shadow-lg p-10 rounded-xl">
-      <img src="/icon.png" alt="" class="">
+      <a href="/">
+        <img src="/icon.png" alt="" class="">
+      </a>
     </div>
     <div class="text-center rounded overflow-hidden shadow-lg p-10 rounded-xl">
-      <img src="https://logos-world.net/wp-content/uploads/2023/08/X-Logo.png" alt="" class="">
+      <a href="http://x.com">
+        <img src="https://logos-world.net/wp-content/uploads/2023/08/X-Logo.png" alt="" class="">
+      </a>
     </div>
     <div class="text-center rounded overflow-hidden shadow-lg p-10 rounded-xl">
-      <img src="https://logos-world.net/wp-content/uploads/2024/10/Pump-Fun-Logo.jpg" alt="">
+      <a href="http://pump.fun"> 
+        <img src="https://logos-world.net/wp-content/uploads/2024/10/Pump-Fun-Logo.jpg" alt="">
+      </a>
     </div>
     <div class="text-center rounded overflow-hidden shadow-lg p-10 rounded-xl">
       <ul>
