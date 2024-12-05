@@ -3,38 +3,54 @@
     <!-- Görseller -->
     <div class="text-center rounded overflow-hidden shadow-lg p-10 rounded">
 
-    <h1 class="text-3xl">Solana Men's underwaer index = SMUI500</h1>
-    <p>CA : FYZJXcT6XPPfPDVg9L1vjwTxMAFLLWcQe5aFvpchpump</p>
-    <div class=" text-center">
-        {{  price }}$
-      </div>
-    <div class="flex justify-around w-full mb-8 gap-4">
-      <div
-        v-for="(image, index) in images"
-        :key="index"
-        class="w-24 h-24 rounded-md  flex items-center justify-center p-4"
-       
-      >
-        <img :src="(index) + '.png'" alt="">
-      </div>
-    </div>
-
-    <!-- Progress Bar -->
-    <div class="relative w-full max-w-3xl">
-      <div class="h-8 bg-gray-300 rounded-full flex">
+      <h1 class="text-3xl">Solana Men's underwaer index = SMUI500</h1>
+      <p>CA : FYZJXcT6XPPfPDVg9L1vjwTxMAFLLWcQe5aFvpchpump</p>
+      <div class=" text-center">
+          {{  price }}$
+        </div>
+      <div class="flex justify-around w-full mb-8 gap-4">
         <div
-          class="h-full bg-green-500 rounded-full transition-all"
-          :style="{ width: progressPercentage + '%' }"
-        ></div>
+          v-for="(image, index) in images"
+          :key="index"
+          class="w-24 h-24 rounded-md  flex items-center justify-center p-4"
+        
+        >
+          <img :src="(index) + '.png'" alt="">
+        </div>
       </div>
 
-      <!-- Fiyat Etiketleri -->
-      <div class="flex justify-between mt-2 text-sm text-gray-600">
-        <span v-for="label in labels" :key="label">{{ label }}$</span>
+      <!-- Progress Bar -->
+      <div class="relative w-full max-w-3xl">
+        <div class="h-8 bg-gray-300 rounded-full flex">
+          <div
+            class="h-full bg-green-500 rounded-full transition-all"
+            :style="{ width: progressPercentage + '%' }"
+          ></div>
+        </div>
+
+        <!-- Fiyat Etiketleri -->
+        <div class="flex justify-between mt-2 text-sm text-gray-600">
+          <span v-for="label in labels" :key="label">{{ label }}$</span>
+        </div>
       </div>
-    </div>
+      <p class="p-6">
+
+        The Men's Underwear Index (MUI) is an economic indicator that purportedly signals the onset of recovery during economic downturns. The concept is based on the idea that men's underwear is a basic necessity, with sales typically stable during normal times. However, during severe economic slumps, purchases may be delayed, reflecting shifts in discretionary spending.
+
+MUI is considered a potential measure of broader consumption trends, particularly during periods of economic recovery. This indicator gained attention for being monitored by former Federal Reserve Chairman Alan Greenspan.
+      </p>
+      <h1 class="text-xl">Why SMUI500 ?</h1>
+      <p>The Men’s Underwear Index is an unconventional yet surprisingly insightful economic indicator, reflecting broader consumption trends during recovery periods. Owning the SMUI500 token makes you part of a community that values   understanding the economy.</p>
+      
 
     </div>
+    
+    <ul class="pt-10">
+        <li><a href="https://glenmont.co/the-mens-underwear-index-as-an-economic-indicator">https://glenmont.co/the-mens-underwear-index-as-an-economic-indicator</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Men%27s_underwear_index">https://en.wikipedia.org/wiki/Men%27s_underwear_index</a></li>
+        <li><a href="https://fred.stlouisfed.org/series/WPUSI094011#0">https://fred.stlouisfed.org/series/WPUSI094011#0</a></li>
+        <li><a href="https://fortune.com/2023/02/15/alan-greenspan-mens-underwear-index-us-economy-inflation/">https://fortune.com/2023/02/15/alan-greenspan-mens-underwear-index-us-economy-inflation/</a></li>
+      </ul>
  
     
   </div>
