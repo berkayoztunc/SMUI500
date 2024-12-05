@@ -1,9 +1,29 @@
 <template>
-  <div class="flex flex-col items-center justify-center min-h-screen max-w-3xl mx-auto scale-150	">
+  <div class="grid grid-cols-4 items-center justify-center  max-w-3xl mx-auto gap-2">
+    <div class="text-center rounded overflow-hidden shadow-lg p-10 rounded-xl">
+      <img src="/icon.png" alt="" class="">
+    </div>
+    <div class="text-center rounded overflow-hidden shadow-lg p-10 rounded-xl">
+      <img src="https://logos-world.net/wp-content/uploads/2023/08/X-Logo.png" alt="" class="">
+    </div>
+    <div class="text-center rounded overflow-hidden shadow-lg p-10 rounded-xl">
+      <img src="https://logos-world.net/wp-content/uploads/2024/10/Pump-Fun-Logo.jpg" alt="">
+    </div>
+    <div class="text-center rounded overflow-hidden shadow-lg p-10 rounded-xl">
+      <ul>
+        <li><a href="/meme.html">Memes</a></li>
+        <li><a href="/telegram.html">Telegram</a></li>
+        <li><a href="/merch.html">Merch</a></li>
+        <li><a href="/merch.html">Dexscreener</a></li>
+
+      </ul>
+    </div>
+  </div>
+  <div class="flex flex-col items-center justify-center min-h-screen max-w-3xl mx-auto 	">
     <!-- Görseller -->
     <div class="text-center rounded overflow-hidden shadow-lg p-10 rounded">
 
-      <h1 class="text-3xl">Solana Men's underwaer index = SMUI500</h1>
+      <h1 class="text-3xl">Solana Men's Underwaer Index = SMU500</h1>
       <p>CA : FYZJXcT6XPPfPDVg9L1vjwTxMAFLLWcQe5aFvpchpump</p>
       <div class=" text-center">
           {{  price }}$
@@ -39,7 +59,7 @@
 
 MUI is considered a potential measure of broader consumption trends, particularly during periods of economic recovery. This indicator gained attention for being monitored by former Federal Reserve Chairman Alan Greenspan.
       </p>
-      <h1 class="text-xl">Why SMUI500 ?</h1>
+      <h1 class="text-xl">Why SMU500 ?</h1>
       <p>The Men’s Underwear Index is an unconventional yet surprisingly insightful economic indicator, reflecting broader consumption trends during recovery periods. Owning the SMUI500 token makes you part of a community that values   understanding the economy.</p>
       
 
