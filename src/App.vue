@@ -25,7 +25,7 @@
     <div class="text-center rounded overflow-hidden shadow-lg p-10 rounded">
 
       <h1 class="text-3xl">Solana Men's Underwaer Index = SMUX500</h1>
-      <p>CA : 69FSWQK2bY6aqP8bTVErEMwwh7g5fC5Pve7JTxGbpump</p>
+      <p>CA : </p>
       <div class=" text-center">
           {{  price }}$
         </div>
